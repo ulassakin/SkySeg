@@ -35,7 +35,7 @@ Modify inside the script:
 
 At the end, you’ll see:
 
--output_sky.mp4 → overlayed segmentation video.
+-output_sky.mp4 → overlayed segmentation video (some example outputs can be found in exampels folder in the repository).
 
 -FPS results printed in the console.
 
