@@ -8,10 +8,10 @@ processor = SegformerFeatureExtractor.from_pretrained(model_name)
 model = SegformerForSemanticSegmentation.from_pretrained(model_name).cuda().eval()
 
 
-video_path = "/home/ula-sak-n/Downloads/deneme.mp4"   # kendi videonu buraya koy
+video_path = "/home/ula-sak-n/Downloads/test1.mp4"   # kendi videonu buraya koy
 cap = cv2.VideoCapture(video_path)
 
-out_path = "output_sky.mp4"
+out_path = "/home/ula-sak-n/Personal/SkySeg/examples/output1_sky.mp4"
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
 fps_in = cap.get(cv2.CAP_PROP_FPS)
 w, h = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
