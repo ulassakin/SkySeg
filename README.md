@@ -14,7 +14,7 @@ It is designed as a preprocessing step to make **drone detection at high altitud
 ## ⚙️ Installation
 Clone the repo and install dependencies:
 ```bash
-git clone https://github.com/<your-username>/SkySeg.git
+git clone https://github.com/ulassakin/SkySeg.git
 cd SkySeg
 pip install -r requirements.txt
 ```
